@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "products",
+  "info": {
+    "name": "product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descripton": {
+      "type": "string"
+    },
+    "data": {
+      "type": "json"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subCategory": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "string"
+    },
+    "visible": {
+      "type": "boolean"
+    }
+  }
+}

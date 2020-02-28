@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "phones",
+  "info": {
+    "name": "Phone"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "phoneNum": {
+      "type": "biginteger"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}
